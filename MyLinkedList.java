@@ -25,7 +25,8 @@ public class MyLinkedList<AnyType> implements Iterable<AnyType>
       {
                  if(beginMarker.next==endMarker.prev||beginMarker.next==endMarker)
                                  return;
-                 else
+    
+		 else
                  {
                  
      Node<AnyType> p,q,temp=new Node<>(null,null,null);
@@ -405,5 +406,6 @@ class TestLinkedList
        
         lst.insertList(newlst,3);
         System.out.println( lst );
+	System.out.println("hello");
     }
 }
