@@ -407,5 +407,6 @@ class TestLinkedList
         lst.insertList(newlst,3);
         System.out.println( lst );
 	System.out.println("hello");
+	System.out.println("test");    
     }
 }
