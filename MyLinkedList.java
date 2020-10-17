@@ -1,3 +1,4 @@
+
 /**
 * LinkedList class implements a doubly-linked list.
 */
@@ -406,6 +407,7 @@ class TestLinkedList
        
         lst.insertList(newlst,3);
         System.out.println( lst );
+	System.out.println("trail2");
 	System.out.println("hello");
 	System.out.println("test");    
     }
